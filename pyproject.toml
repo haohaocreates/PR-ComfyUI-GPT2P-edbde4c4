@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-gpt2p"
+description = "ComfyUI Node - Hugging Face repositories GTP2 Prompt"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["transformers==4.26.1"]
+
+[project.urls]
+Repository = "https://github.com/1038lab/ComfyUI-GPT2P"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-GPT2P"
+Icon = ""
